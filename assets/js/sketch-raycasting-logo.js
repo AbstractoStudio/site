@@ -21,8 +21,8 @@ let tweenWindow;
 
 function preload() {
   // Load model with normalise parameter set to true
-  logo = loadModel("user/themes/abstracto-theme/js/assets/AbstractoLogo.obj", true);
-  material = loadImage('user/themes/abstracto-theme/js/assets/material.png');
+  logo = loadModel("../assets/js/assets/AbstractoLogo.obj", true);
+  material = loadImage('../assets/js/assets/material.png');
 }
 
 function setup() {

@@ -856,13 +856,13 @@ p {
 .team-avatar.team-avatar-image1 {
   width: 240px;
   height: 240px;
-  background-image: url('../images/sandropic.png');
+  background-image: url('../imgs/about/sandropic.png');
 }
 
 .team-avatar.team-avatar-image2 {
   width: 240px;
   height: 240px;
-  background-image: url('../images/marcelopic.png');
+  background-image: url('../imgs/about/marcelopic.png');
 }
 
 .canvas-blank {
