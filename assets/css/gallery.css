@@ -71,7 +71,7 @@ ul {
 
 .gallery_wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     margin-top: 4rem;
 }
@@ -157,7 +157,7 @@ ul {
 
 .lightbox_content {
     box-shadow: var(--box-shadow);
-    max-width: 700px;
+    max-width: 80%;
     width: 100%;
     border-radius: 10px;
     text-align: center;
