@@ -24,6 +24,12 @@ h1 {
   font-weight: 500;
 }
 
+h1.title{
+  font-weight: bold;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
 h2 {
   margin-top: 20px;
   margin-bottom: 10px;

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+  <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | relative_url }}">
+ <div class="video-project-wrapper">
+    <div data-poster-url="{{site.url}}{{ page.assets-folder}}{{page.video-poster}}" data-video-urls="{{site.url}}{{ page.assets-folder}}{{page.video}}.mp4',{{site.url}}{{ page.assets-folder}}{{page.video}}.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-2 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot{{site.url}}{{ page.assets-folder}}{{page.video-poster}}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="{{site.url}}{{ page.assets-folder}}{{page.video}}.mp4" data-wf-ignore="true">
+        <source src="{{site.url}}{{ page.assets-folder}}{{page.video}}.webm" data-wf-ignore="true">
+      </video></div>
+  </div>
+  <div class="home-menu-stickbg"></div>
+  <section id="cards-section" class="product-description">
+    <div class="mycontainer">
+      <div data-w-id="94ed4d0f-ee2d-429b-205a-9212f758076a" class="home-title"> 
+        <h1 class="title">{{ page.project-title }}</h1>
+        <h1>{{ page.long-description }}</h1>
+      </div>
+    </div>
+  </section>
+
+  {% include gallery.html %}
+
+  <div class="section-dark-3"></div>
+  
+  {% include processo.html %}
+
+  {% include contato.html %}

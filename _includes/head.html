@@ -2,17 +2,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Abstracto Studio</title>
-  <meta content="Design, arte e tecnologia para criação de experiências interativas inesquecíveis." name="description">
-  <meta content="Abstracto Studio" property="og:title">
-  <meta content="Design, arte e tecnologia para criação de experiências interativas inesquecíveis." property="og:description">
-  <meta content="{{ assets/imgs/abstracto-og.jpg || relative_url" }} property="og:image">
-  <meta content="Abstracto Studio" property="twitter:title">
-  <meta content="Design, arte e tecnologia para criação de experiências interativas inesquecíveis." property="twitter:description">
-  <meta content="{{ assets/imgs/abstracto-og.jpg || relative_url" }} property="twitter:image">
+  <title>{{ page.title }}</title>
+  <meta content="{{ page.description }}" name="description">
+  <meta content="{{ page.title }}" property="og:title">
+  <meta content="{{ page.description }}" property="og:description">
+  <meta content="{{site.url}}{{ page.og-image || relative_url }}" property="og:image">
+  <meta content="{{ page.title }}" property="twitter:title">
+  <meta content="{{ page.description }}" property="twitter:description">
+  <meta content="{{site.url}}{{ page.og-image || relative_url }}" property="twitter:image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://abstracto.com.br">
-  <meta content="{{ assets/imgs/abstracto-og.jpg || relative_url" }} name="twitter:card">
+  <meta property="og:url" content="http://abstracto.com.br{{ page.permalink }}">
+  <meta content="{{site.url}}{{ page.og-image || relative_url }}" name="twitter:card">
 
   <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/webflow.css" | relative_url }}">

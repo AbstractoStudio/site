@@ -1,0 +1,32 @@
+---
+layout: project
+
+title: Abstracto Studio - Tato
+project-title: Tato
+description: Superfície elástica interativa. Para experiências divertidas e engajantes. O conteúdo visual é personalizável.
+long-description: "Tato é uma instalação interativa que utiliza tecido elástico para interação com conteúdos visuais em tempo real. A instalação pode ser feita em diferentes tamanhos, e o conteúdo pode ser personalizado de acordo com sua marca ou evento. <br><br>
+
+Tato dá vida ao ambiente, a interação é divertida e o resultado é uma experiência engajante, com alto compartilhamento em redes sociais."
+
+media-title: Eventos
+media-description: Confira algumas fotos de eventos em Belo Horizonte onde a instalação já foi realizada.
+
+# Media
+
+permalink: /tato/
+assets-folder: /assets/projects/tato/
+og-image: /assets/projects/tato/imgs/tato.jpg
+video-poster: videos/tato-poster.jpg
+video: videos/tato
+
+# Gallery
+gallery-count: 1
+gallery:
+  - name: Teste
+    tag: teste
+    folder: /assets/projects/tato/imgs/gallery/
+  # - name: Novo teste
+  #   tag: novo_teste
+  #   folder: /assets/projects/tato/imgs/gallery/
+
+---
