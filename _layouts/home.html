@@ -33,112 +33,39 @@ layout: default
       </div>
     </div>
   </section>
+
+  
   <section id="feature-section" class="home-projects-section">
-    <!-- ATO I -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ 'assets/projects/atoi/atoi-04.jpg' || relative_url }}" width="1075" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ 'assets/projects/atoi/atoi.png' || relative_url }}" alt=""></div>
-        <div class="tags pad16">Instalação Interativa • Experiência Imersiva • Tamanho PERSONALIZÁVEL</div>
-        <div class="pad24">
-          <p>Ato I é o nome da instalação interativa que deu boas vindas ao público da exposição 'Palácio das Artes: 50 anos em 5 atos', em que os visitantes tiveram seu movimento rastreado no espaço para interagir com luzes moving head.</p>
-        </div>
-        <a href="{{ base_url }}/atoi" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
 
-    <!-- TATO -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/tato.jpg', true) }}" width="1075" sizes="(max-width: 767px) 96vw, (max-width: 1439px) 70vw, 980.125px" srcset="{{ url('theme://images/tato-p-500.jpeg', true) }} 500w, {{ url('theme://images/tato.jpg', true) }} 2194w" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/tato.png', true) }}" alt=""></div>
-        <div class="tags pad16">EXECUÇÃO IMEDIATA • CONTEÚDO PERSONALIZÁVEL • VÁRIOS TAMANHOS</div>
-        <div class="pad24">
-          <p>Tela elástica interativa. Para experiências divertidas e engajantes. O conteúdo visual é personalizável.</p>
-        </div>
-        <a href="{{ base_url }}/tato" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
+    {% assign projects = site.pages | where_exp: "item" , "item.path contains 'projects' and item.home == true" |  uniq %}
 
-    <!-- DESMEMÓRIA -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/desmemoria-01.png', true) }}" width="1075" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/desmemoria.png', true) }}" alt=""></div>
-        <div class="tags pad16">Teatro Digital • Web • Game Art</div>
-        <div class="pad24">
-          <p>(Des)memória é um 'game art', que transformou uma peça de teatro em uma experiência interativa web.</p>
-        </div>
-        <a href="{{ base_url }}/desmemoria" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
+    {% for project in projects %}
 
-
-    <!-- Mesa Touchless -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/mesatouchless.jpg', true) }}" width="1075" sizes="(max-width: 767px) 96vw, (max-width: 1439px) 70vw, 980.125px" srcset="{{ url('theme://images/mesatouchless-p-800.jpeg', true) }} 800w, {{ url('theme://images/mesatouchless-p-1080.jpeg', true) }} 1080w, {{ url('theme://images/mesatouchless-p-1600.jpeg', true) }} 1600w, {{ url('theme://images/mesatouchless-p-2000.jpeg', true) }} 2000w, {{ url('theme://images/mesatouchless.jpg', true) }} 2194w" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/mesatouchless.png', true) }}" alt=""></div>
-        <div class="tags pad16">Evento Corporativo • Interação touchless • Projeção Mapeada</div>
-        <div class="pad24">
-          <p>Mesas iluminadas com interação sem toque. Projeto realizado para a abertura do Sebraelab em Belo Horizonte.</p>
+      <div class="mycontainer product">
+        <div class="feature-image-mask"><img src="{{ project.og-image || relative_url }}" width="1075" alt="" class="feature-image"></div>
+        <div class="home-product-text-wrapper">
+          <div class="pad24">{{ project.project_title }}</div>
+          <div class="tags pad16">
+          {% for tag in project.tags %}
+            {% if tag  == project.tags[0] %}
+              {{ tag }}
+            {% else %}
+              • {{ tag }}
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div class="pad24">
+            <p>{{ project.description }}</p>
+          </div>
+          <a href="{{ base_url }}{{ project.permalink }}" class="button w-button">Saiba mais -&gt;</a>
         </div>
-        <a href="{{ base_url }}/mesa-touchless" class="button w-button">Saiba mais -&gt;</a>
       </div>
-    </div>
 
-    <!-- Painel Interativo -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/FAEMG_02.jpg', true) }}" width="1075" sizes="(max-width: 767px) 96vw, (max-width: 1439px) 70vw, 980.125px" srcset="{{ url('theme://images/FAEMG_02.jpg', true) }} 800w, {{ url('theme://images/FAEMG_02.jpg', true) }} 1080w, {{ url('theme://images/FAEMG_02.jpg', true) }} 1600w, {{ url('theme://images/FAEMG_02.jpg', true) }} 2000w, {{ url('theme://images/FAEMG_02.jpg', true) }} 2194w" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/FAEMG.png', true) }}" alt=""></div>
-        <div class="tags pad16">Evento Corporativo • Interação touchless • Painel de LED</div>
-        <div class="pad24">
-          <p>Experiência interativa que convidou o público a usar o corpo para interagir com o conteúdo de um painel de led, criando um ambiente atrativo para os visitantes da Semana Internacional do Café no Expominas em Belo Horizonte.</p>
-        </div>
-        <a href="{{ base_url }}/painel-interativo" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
+    {% endfor %}
 
-    <!-- Anima -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/anima-01.jpg', true) }}" width="1075" sizes="(max-width: 767px) 96vw, (max-width: 1439px) 70vw, 980.125px" srcset="{{ url('theme://images/anima-01.jpg', true) }} 800w, {{ url('theme://images/anima-01.jpg', true) }} 1080w, {{ url('theme://images/anima-01.jpg', true) }} 1600w, {{ url('theme://images/anima-01.jpg', true) }} 2000w, {{ url('theme://images/anima-01.jpg', true) }} 2194w" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/anima_logo.png', true) }}" alt=""></div>
-        <div class="tags pad16">INSTALAÇÃO INTERATIVA • EXPERIÊNCIA IMERSIVA • TAMANHO PERSONALIZÁVEL</div>
-        <div class="pad24">
-          <p>Por meio de um sensor de captura de movimento, o público pôde controlar com seus corpos o brilho, movimento e cores de 8 'moving heads', dando vida às luzes que iluminaram a árvore central da cúpula de vidro do Museu Mineiro durante o Festival Criatura. </p>
-        </div>
-        <a href="{{ base_url }}/anima" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
-
-    <!-- NossaCidade -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/nossacidade.jpg', true) }}" width="1075" sizes="(max-width: 767px) 96vw, (max-width: 1439px) 70vw, 980.125px" srcset="{{ url('theme://images/nossacidade-p-800.jpeg', true) }} 800w, {{ url('theme://images/nossacidade-p-1080.jpeg', true) }} 1080w, {{ url('theme://images/nossacidade.jpg', true) }} 1097w" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/nossacidade.png', true) }}" alt=""></div>
-        <div class="tags pad16">Projeto premiado - Realidade Aumentada - Hackathon</div>
-        <div class="pad24">
-          <p>Plataforma de Realidade Aumentada para a reivindicação de melhorias urbanas. Projeto vencedor do Hackathon Rio2C de 2018.</p>
-        </div>
-        <a href="{{ base_url }}/nossa-cidade" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
-
-    <!-- Balsa -->
-    <div class="mycontainer product">
-      <div class="feature-image-mask"><img src="{{ url('theme://images/balsa5.png', true) }}" width="1075" sizes="(max-width: 767px) 96vw, (max-width: 1439px) 70vw, 980.125px" srcset="{{ url('theme://images/balsa5.png', true) }} 800w, {{ url('theme://images/balsa5.png', true) }} 1080w, {{ url('theme://images/balsa5.png', true) }} 1097w" alt="" class="feature-image"></div>
-      <div class="home-product-text-wrapper">
-        <div class="pad24"><img src="{{ url('theme://images/balsa_logo.png', true) }}" alt=""></div>
-        <div class="tags pad16">Web - Ambiente Virtual - Personalizado</div>
-        <div class="pad24">
-          <p>Criado em colaboração com a artista Carolina Botura, Balsa foi uma obra virtual parte da exposição 'Na Boca da Mata Ah!', que teve obras físicas também expostas na Piccola Galleria da Casa Fiat em Belo Horizonte.</p>
-        </div>
-        <a href="{{ base_url }}/balsa" class="button w-button">Saiba mais -&gt;</a>
-      </div>
-    </div>
   </section>
+
+
   <section id="cards-section" class="product-description">
     <div class="mycontainer">
       <div data-w-id="b443992e-afa6-1694-1a42-4233c9c21f3f" class="home-title">

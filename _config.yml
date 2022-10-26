@@ -8,6 +8,9 @@ twitter_username: studioabstracto
 github_username:  studioabstracto
 instagram_username: studioabstracto
 
+include: ['projects']
+relative_permalinks: false
+
 # Build settings
 theme: minima
 plugins:

@@ -14,14 +14,13 @@
             <div>Projetos</div>
           </div>
           <nav class="dropdown-list w-dropdown-list">
-            <a href="{{ site.url }}/tato" class="nav-link w-dropdown-link">Tato</a>
-            <a href="{{ site.url }}/mesa-touchless" class="nav-link w-dropdown-link">Mesa Touchless</a>
-            <a href="{{ site.url }}/nossa-cidade" class="nav-link w-dropdown-link">#nossacidade</a>
-            <a href="{{ site.url }}/balsa" class="nav-link w-dropdown-link">Balsa</a>
-            <a href="{{ site.url }}/atoi" class="nav-link w-dropdown-link">Ato I</a>
-            <a href="{{ site.url }}/desmemoria" class="nav-link w-dropdown-link">(Des)memória</a>
-            <a href="{{ site.url }}/painel-interativo" class="nav-link w-dropdown-link">Painel Interativo</a>
-            <a href="{{ site.url }}/anima" class="nav-link w-dropdown-link">Anima</a>
+
+            {% assign projects = site.pages | where_exp: "item" , "item.path contains 'projects'" |  uniq %}
+
+            {% for project in projects %}
+            <a href="{{ site.url }}{{ project.permalink }}" class="nav-link w-dropdown-link">{{ project.project-title }}</a>
+            {% endfor %}
+
           </nav>
         </div>
         <a href="{{ site.url }}/about" class="nav-link w-nav-link">Sobre</a>

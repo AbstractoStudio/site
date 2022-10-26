@@ -110,7 +110,7 @@ ul {
 }
 
 .gallery_item img {
-    transition: transform 0.3s ease;
+    transition: transform 0.75s ease;
 }
 
 .gallery_item:hover img {
