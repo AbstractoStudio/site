@@ -1,14 +1,17 @@
 ---
 layout: project
 
+home: true
 title: Abstracto Studio - Ato I
 project-title: Ato I
-home: true
+description: "Ato I é o nome da instalação interativa que deu boas vindas ao público da exposição 'Palácio das Artes: 50 anos em 5 atos', em que os visitantes tiveram seu movimento rastreado no espaço para interagir com luzes moving head."
 tags:
   - Instalação Interativa
   - Experiência Imersiva
   - Tamanho Personalizável
-description: "Ato I é o nome da instalação interativa que deu boas vindas ao público da exposição 'Palácio das Artes: 50 anos em 5 atos', em que os visitantes tiveram seu movimento rastreado no espaço para interagir com luzes moving head."
+  
+# Project page data
+
 
 long-description: '
 Ato I é o nome da instalação interativa, desenvolvida em parceria com o <a style="text-decoration:underline" class="nav-link-copy" href="https://www.mir.cx/" target="_blank">MIR</a>, que deu boas vindas ao público da exposição <a style="text-decoration:underline" class="nav-link-copy" href="https://fcs.mg.gov.br/eventos/50-anos-em-5-atos-exposicao-sensorial-e-imersiva-celebra-cinquentenario-do-palacio-das-artes/" target="_blank">"Palácio das Artes: 50 anos em 5 atos"</a>, exibida na Grande Galeria Alberto da Veiga Guignard no Palácio das Artes, em Belo Horizonte.<br><br>
@@ -26,8 +29,8 @@ video: videos/atoi
 
 # Gallery
 
-media-title: Eventos
-media-description: Confira algumas fotos de eventos em Belo Horizonte onde a instalação já foi realizada.
+media-title: Exposição no Palácio das Artes
+media-description: 'A instalação foi exibida na exposição <a style="text-decoration:underline" class="nav-link-copy" href="https://fcs.mg.gov.br/eventos/50-anos-em-5-atos-exposicao-sensorial-e-imersiva-celebra-cinquentenario-do-palacio-das-artes/" target="_blank">"Palácio das Artes: 50 anos em 5 atos"</a> de Agosto a Novembro de 2021 e contou com mais de 6 mil visitantes. Fotos e vídeo por Lipe Canêdo e performance por <a style="text-decoration:underline" class="nav-link-copy" href="https://carolvilela.com/" target="_blank">Carol Vilela</a>.'
 
 gallery-count: 1
 gallery:

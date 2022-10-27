@@ -157,7 +157,7 @@ ul {
 
 .lightbox_content {
     box-shadow: var(--box-shadow);
-    max-width: 80%;
+    max-width: 60%;
     width: 100%;
     border-radius: 10px;
     text-align: center;
