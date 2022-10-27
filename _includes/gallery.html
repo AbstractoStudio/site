@@ -15,13 +15,14 @@
 	        {% if page.gallery-count>1 %}
             <!-- Filterable Gallery -->
             <ul class="gallery_tabs">
-                <li class="active" data-filter="all">All {{ page.gallery.length }}</li>
+                <li class="active" data-filter="all">Todos</li>
 
 	           	{% for glr in page.gallery %}	
                 <li data-filter="{{ glr.tag }}">{{ glr.name }}</li>
                 {% endfor %}
             </ul>
 			{% endif %}
+    </div>
 
 	      <div class="gallery_wrapper wrap">
 
