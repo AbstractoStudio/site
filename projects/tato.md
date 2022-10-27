@@ -6,9 +6,9 @@ title: Abstracto Studio - Tato
 project-title: Tato
 description: Superfície elástica interativa. Para experiências divertidas e engajantes. O conteúdo visual é personalizável.
 tags:
-  - Instalação Interativa
-  - Experiência Imersiva
-  - Tamanho Personalizável
+  - Execução Imediata
+  - Conteúdo Personalizável
+  - Vários Tamanhos
 
 # Project page data
 
@@ -21,7 +21,7 @@ Tato dá vida ao ambiente, a interação é divertida e o resultado é uma exper
 
 permalink: /tato/
 assets-folder: /assets/projects/tato/
-og-image: /assets/projects/tato/imgs/tato.jpg
+og-image: /assets/projects/tato/imgs/gallery/tato7.png
 video-poster: videos/tato-poster.jpg
 video: videos/tato
 
