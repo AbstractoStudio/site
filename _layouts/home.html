@@ -44,7 +44,7 @@ layout: default
       <div class="mycontainer product">
         <div class="feature-image-mask"><img src="{{ project.og-image || relative_url }}" width="1075" alt="" class="feature-image"></div>
         <div class="home-product-text-wrapper">
-          <div class="pad24">{{ project.project_title }}</div>
+          <div class="pad24"><h1 class="title">{{ project.project-title }}</h1></div>
           <div class="tags pad16">
           {% for tag in project.tags %}
             {% if tag  == project.tags[0] %}
