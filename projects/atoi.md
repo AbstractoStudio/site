@@ -18,6 +18,7 @@ Ato I é o nome da instalação interativa, desenvolvida em parceria com o <a st
         Ao entrar na galeria, os visitantes eram rastreados no espaço e seguidos por luzes moving head, transmitindo a sensação de estar entrando no palco do Grande Teatro para apresentar um espetáculo, reforçado por sons de burburinho do público, afinação da orquestra e aplausos, que eram ativados de acordo com a movimentação dos visitantes na galeria.<br><br>
         Ato I foi a primeira sala visitada pelo público na exposição, um convite para ver o Palácio das Artes de novas maneiras, e se aprofundar na sua história nos outros atos da exposição.
 '
+include-processo: true
 
 # Media
 

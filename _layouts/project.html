@@ -22,6 +22,8 @@ layout: default
 
   <div class="section-dark-3"></div>
   
-  {% include processo.html %}
+  {% if page.include-processo %}
+    {% include processo.html %}
+  {% endif %}
 
   {% include contato.html %}

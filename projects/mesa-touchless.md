@@ -2,7 +2,7 @@
 layout: project
 
 home: true
-title: Abstracto Studio - Mesa Touchlss
+title: Abstracto Studio - Mesa Touchless
 project-title: Mesa Touchless
 description: Mesas iluminadas com projeção mapeada e interação sem toque. Projeto realizado para a abertura do Sebraelab em Belo Horizonte.
 tags:
@@ -15,7 +15,7 @@ tags:
 long-description: 'O Sebraelab é um espaço multifuncional de criatividade e inovação do Sebrae em Belo Horizonte. Para o evento de inauguração, criamos, em colaboração com a Produtora TremChic, mesas com projeção interativa sem toque.
 <br><br>
 Ao passar as mãos sobre a mesa, os convidados puderam explorar como a arquitetura modular do espaço cria um ambiente dinâmico que promove a participação dos usuários na construção dos possíveis layouts.'
-
+include-processo: true
 
 # Media
 

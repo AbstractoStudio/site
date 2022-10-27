@@ -15,7 +15,7 @@ tags:
 long-description: "Tato é uma instalação interativa que utiliza tecido elástico para interação com conteúdos visuais em tempo real. A instalação pode ser feita em diferentes tamanhos, e o conteúdo pode ser personalizado de acordo com sua marca ou evento. <br><br>
 
 Tato dá vida ao ambiente, a interação é divertida e o resultado é uma experiência engajante, com alto compartilhamento em redes sociais."
-
+include-processo: true
 
 # Media
 
