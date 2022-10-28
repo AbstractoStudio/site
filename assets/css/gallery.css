@@ -78,6 +78,7 @@ ul {
 
 @media (max-width: 768px) {
     .gallery_wrapper {
+        grid-template-columns: repeat(4, 1fr);
         gap: 0.5rem;
     }
 }
