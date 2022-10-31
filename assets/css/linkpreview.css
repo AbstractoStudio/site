@@ -59,7 +59,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans";
+  font-family:  Inter, sans-serif;
 }
 
 .content-wrapper {
@@ -139,7 +139,7 @@
 .news-card__title {
     transition: color 1s ease;
     margin-bottom: .5rem;
-    font-family: "Open Sans";
+    font-family:  Inter, sans-serif;
     font-weight: bold;
     font-size: 1.5em;
     line-height: initial;
