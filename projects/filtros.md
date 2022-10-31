@@ -57,8 +57,8 @@ news-links:
   - https://belohorizontemg.com.br/cura-raul-soares/
   - https://soubh.uai.com.br/noticias/cultura/novo-painel-do-cura-na-praca-raul-soares-comeca-a-tomar-forma
   - https://www.em.com.br/app/noticia/cultura/2022/02/25/interna_cultura,1348350/mag-magrela-conclui-painel-no-edificio-savoy-perto-da-praca-raul-soares.shtml
+  - https://bhaz.com.br/guia-bhaz/praca-raul-soares-recebe-nova-edicao-cura-neste-mes
   - https://soulart.org/artes/cura-recebe-mag-magrela-destaque-da-cena-mundial-de-arte-urbana
-  - https://bhaz.com.br/guia-bhaz/praca-raul-soares-recebe-nova-edicao-cura-neste-mes/#gref
 
 
 ---
