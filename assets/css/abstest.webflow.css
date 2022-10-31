@@ -28,6 +28,7 @@ h1.title{
   font-weight: bold;
   font-size: 4em;
   text-transform: uppercase;
+  line-height: 1em;
 }
 
 h2 {
@@ -425,8 +426,8 @@ p {
 
 .text-16 {
   display: inline-block;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 26px;
+  line-height: 36px;
 }
 
 .text-16.text-16-60 {
@@ -449,7 +450,7 @@ p {
 }
 
 .content6-headline {
-  margin-bottom: 45px;
+  margin-bottom: 0px;
   padding-right: 40px;
 }
 
@@ -1258,7 +1259,7 @@ p {
   }
 
   .content6-headline {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     padding-right: 0px;
     text-align: center;
   }
