@@ -43,4 +43,9 @@ gallery:
     tag: mag_magrela
     folder: /assets/projects/filtros/imgs/gallery-mag/
 
+# Reels
+reels:
+  - https://www.instagram.com/reel/CXizejzrR46/
+  - https://www.instagram.com/reel/Cb_M5PKpdqH/
+
 ---
