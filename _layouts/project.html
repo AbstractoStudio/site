@@ -2,6 +2,7 @@
 layout: default
 ---
   <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/linkpreview.css" | relative_url }}">
  <div class="video-project-wrapper">
     <div data-poster-url="{{site.url}}{{ page.assets-folder}}{{page.video-poster}}" data-video-urls="{{site.url}}{{ page.assets-folder}}{{page.video}}.mp4',{{site.url}}{{ page.assets-folder}}{{page.video}}.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-2 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot{{site.url}}{{ page.assets-folder}}{{page.video-poster}}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
         <source src="{{site.url}}{{ page.assets-folder}}{{page.video}}.mp4" data-wf-ignore="true">
@@ -21,6 +22,9 @@ layout: default
   {% include gallery.html %}
 
   {% include reels.html %}
+
+  {% include midia.html %}
+
 
 
 
