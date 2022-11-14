@@ -20,18 +20,18 @@ include-processo: false
 
 permalink: /filtros/
 assets-folder: /assets/projects/filtros/
-og-image: /assets/projects/filtros/imgs/gallery-mag/mag-02.png
+og-image: /assets/projects/filtros/imgs/gallery-ucs/ucs-03.jpg
 video-poster: videos/filtros-poster.png
 video: videos/filtros
 
 # Gallery
 
 media-title: Filtros Desenvolvidos
-media-description: '<strong>Edmun</strong> -Filtro feito em colaboração com o artista urbano Edmun para sua empena do Festival Cura: Circuito Urbano de Arte Urbana.
+media-description: '<strong>Edmun</strong> -Filtro feito em colaboração com o artista urbano Edmun para sua empena do Festival CURA: Circuito Urbano de Arte.
 <br><br>
-<strong>MagMagrela</strong> - Filtro feito em colaboração com a artista urbana MagMagrela para sua empena do Festival Cura: Circuito Urbano de Arte Urbana.
+<strong>MagMagrela</strong> - Filtro feito em colaboração com a artista urbana MagMagrela para sua empena do Festival CURA: Circuito Urbano de Arte.
 <br><br>
-<strong>Universidade de Caxias do Sul (UCS) - Hospital Veterinário</strong> - Filtro feito em colaboração com o artista urbana Gomes One para sua empena no Hospital Veterinário da UCS.
+<strong>Universidade de Caxias do Sul (UCS) - Hospital Veterinário</strong> - Filtro feito em colaboração com o artista urbano Gomes One para sua empena no Hospital Veterinário da UCS.
 <br><br>'
 
 gallery-count: 2
