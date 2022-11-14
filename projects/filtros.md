@@ -20,7 +20,7 @@ include-processo: false
 
 permalink: /filtros/
 assets-folder: /assets/projects/filtros/
-og-image: /assets/projects/filtros/imgs/gallery/filtros-01.jpg
+og-image: /assets/projects/filtros/imgs/gallery-mag/mag-02.png
 video-poster: videos/filtros-poster.png
 video: videos/filtros
 
@@ -42,11 +42,15 @@ gallery:
   - name: Mag Magrela
     tag: mag_magrela
     folder: /assets/projects/filtros/imgs/gallery-mag/
+  - name: Universidade Caixias do Sul (UCS)
+    tag: ucs
+    folder: /assets/projects/filtros/imgs/gallery-ucs/
 
 # Reels
 reels:
   - https://www.instagram.com/reel/CXizejzrR46/
   - https://www.instagram.com/reel/Cb_M5PKpdqH/
+  - https://www.instagram.com/reel/Ck8aP41DKTX/
 
 # News - "Na Mídia"
 news-links:
