@@ -2,8 +2,8 @@ title: Abstracto Studio
 email: contato@abstracto.com.br
 description: >- # this means to ignore newlines until "baseurl:"
   Estúdio especializado em experiências interativas e novas tecnologias.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://abstracto.com.br/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: studioabstracto
 github_username:  studioabstracto
 instagram_username: studioabstracto
