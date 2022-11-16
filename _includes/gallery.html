@@ -30,7 +30,7 @@
 		           	{% for image in site.static_files %}
 		              {% if image.path contains glr.folder %}
 		                <div class="gallery_item {{ glr.tag }}">
-		                    <img src="{{ site.baseurl }}{{ image.path }}"
+		                    <img src="{{ site.url }}{{ image.path }}"
 		                        alt="img">
 		                </div>
 		              {% endif %}
