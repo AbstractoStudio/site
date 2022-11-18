@@ -78,10 +78,16 @@ ul {
 
 .gallery_wrapper2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin-top: 4rem;
-    place-items: center;
+    place-items: normal center;
+}
+
+@media (max-width: 1080px) {
+    .gallery_wrapper2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
