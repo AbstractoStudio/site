@@ -20,7 +20,7 @@ include-processo: false
 
 permalink: /filtros/
 assets-folder: /assets/projects/filtros/
-og-image: /assets/projects/filtros/imgs/gallery-ucs/ucs-03.jpg
+og-image: /assets/projects/filtros/imgs/filtros-cover.jpg
 video-poster: videos/filtros-poster.png
 video: videos/filtros
 
