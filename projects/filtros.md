@@ -63,6 +63,7 @@ news-links:
   # - https://www.em.com.br/app/noticia/cultura/2022/02/25/interna_cultura,1348350/mag-magrela-conclui-painel-no-edificio-savoy-perto-da-praca-raul-soares.shtml
   - https://bhaz.com.br/guia-bhaz/praca-raul-soares-recebe-nova-edicao-cura-neste-mes
   - https://soulart.org/artes/cura-recebe-mag-magrela-destaque-da-cena-mundial-de-arte-urbana
+  - https://gauchazh.clicrbs.com.br/pioneiro/cultura-e-lazer/noticia/2023/08/mural-que-sera-inaugurado-nesta-terca-na-ucs-une-inteligencia-artificial-e-realidade-aumentada-cll19y2f800ao0154pt9ftypu.html
 
 
 ---
