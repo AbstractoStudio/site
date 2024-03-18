@@ -27,7 +27,7 @@ video: videos/filtros
 # Gallery
 
 media-title: Filtros Desenvolvidos
-media-description: '<strong>Edmun</strong> -Filtro feito em colaboração com o artista urbano Edmun para sua empena do Festival CURA: Circuito Urbano de Arte.
+media-description: '<strong>Edmun</strong> - Filtro feito em colaboração com o artista urbano Edmun para sua empena do Festival CURA: Circuito Urbano de Arte.
 <br><br>
 <strong>MagMagrela</strong> - Filtro feito em colaboração com a artista urbana MagMagrela para sua empena do Festival CURA: Circuito Urbano de Arte.
 <br><br>
