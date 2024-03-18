@@ -13,7 +13,7 @@ tags:
 # Project page data
 
 long-description: "Piso Interativo é uma tipo de instalação interativa onde toda uma região fica interativa quando pessoas pisam nela. Essa região pode ser iluminada por uma projeção ou painel de LED.
-<br><br>O sensor utilizado é capaz de cobrir uma grande área. Esse tipo de projeto funciona muito bem para recepção de eventos grandes e festas de casamento e 15 anos."
+<br><br>O sensor utilizado é capaz de cobrir uma grande área. Esse tipo de projeto funciona muito bem para recepção de eventos grandes, festas de casamento e festas de 15 anos."
 include-processo: true
 
 # Media
@@ -27,7 +27,7 @@ video: videos/piso-interativo
 # Gallery
 
 media-title: Espaço Imersivo ZW Design
-media-description: 'Registros de experimentos de piso interativo sendo apresentados na <a href="https://zwdesign.com.br/" target="_blank">ZW Design</a>'
+media-description: 'Registros de experimentos de piso interativo sendo apresentados na <a style="color:white" href="https://zwdesign.com.br/" target="_blank">ZW Design</a>'
 
 gallery-count: 1
 gallery:
