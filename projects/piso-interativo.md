@@ -13,7 +13,7 @@ tags:
 # Project page data
 
 long-description: "Instalação imersiva que transforma o piso em uma superfície interativa. Iluminada por projeção ou painel de LED, diferentes conteúdos podem reagir ao caminhar do público.
-<br><br>Ideal para criar experiências inesquecíveis para recepção de eventos de médio e grande porte, incluindo feiras, festivais, casamentos, festas de 15 anos, entre outros."
+<br><br>Ideal para criar experiências inesquecíveis para recepção de eventos de médio e grande porte, incluindo festivais, exposições, casamentos, festas de 15 anos, entre outros."
 include-processo: true
 
 # Media
