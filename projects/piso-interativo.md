@@ -4,7 +4,7 @@ layout: project
 home: true
 title: 'Abstracto Studio - Piso Interativo'
 project-title: 'Piso Interativo'
-description: "Criamos experiências de piso interativo, seja com projeção ou painel de LED"
+description: "Instalação imersiva que transforma o piso em uma superfície interativa. Ideal para eventos de médio e grande porte, incluindo feiras, festivais, casamentos, festas de 15 anos, entre outros."
 tags:
   - Instalação Interativa
   - Experiência Imersiva
@@ -12,8 +12,8 @@ tags:
 
 # Project page data
 
-long-description: "Piso Interativo é uma tipo de instalação interativa onde toda uma região fica interativa quando pessoas pisam nela. Essa região pode ser iluminada por uma projeção ou painel de LED.
-<br><br>O sensor utilizado é capaz de cobrir uma grande área. Esse tipo de projeto funciona muito bem para recepção de eventos grandes, festas de casamento e festas de 15 anos."
+long-description: "Instalação imersiva que transforma o piso em uma superfície interativa. Iluminada por projeção ou painel de LED, diferentes conteúdos podem reagir ao caminhar do público.
+<br><br>Ideal para criar experiências inesquecíveis para recepção de eventos de médio e grande porte, incluindo feiras, festivais, casamentos, festas de 15 anos, entre outros."
 include-processo: true
 
 # Media
@@ -27,7 +27,7 @@ video: videos/piso-interativo
 # Gallery
 
 media-title: Espaço Imersivo ZW Design
-media-description: 'Registros de experimentos de piso interativo sendo apresentados na <a style="color:white" href="https://zwdesign.com.br/" target="_blank">ZW Design</a>'
+media-description: 'Registros de experimentos de piso interativo sendo apresentados na <a style="color:white" href="https://zwdesign.com.br/" target="_blank">ZW Design</a>.<br>Fotos e registros por Abstracto e ZW Design.'
 
 gallery-count: 1
 gallery:
