@@ -32,6 +32,8 @@ media-description: '<strong>Edmun</strong> - Filtro feito em colaboração com o
 <strong>MagMagrela</strong> - Filtro feito em colaboração com a artista urbana MagMagrela para sua empena do Festival CURA: Circuito Urbano de Arte.
 <br><br>
 <strong>Universidade de Caxias do Sul (UCS) - Hospital Veterinário</strong> - Filtro feito em colaboração com o artista urbano Gomes One para sua empena no Hospital Veterinário da UCS.
+<br><br>
+<strong>Universidade de Caxias do Sul (UCS) - Escola de Medicina</strong> - Filtro feito em colaboração com o artista urbano Gomes One para sua empena na Escola de Medicina da UCS. 
 <br><br>'
 
 gallery-count: 2
