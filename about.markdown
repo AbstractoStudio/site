@@ -12,14 +12,17 @@ permalink: /about/
     <div class="sobre-wrapper">
       <div class="mycontainer">
         <div data-w-id="94ed4d0f-ee2d-429b-205a-9212f758076a" class="about-title">
-          <h1>Criamos experiências interativas inesquecíveis</h1>
-          <p>Somos uma equipe multidisciplinar especializada (e apaixonada) por criar e desenvolver formas inusitadas de utilizar novas mídias e tecnologias. <br><br>Criamos obras e ambientes divertidos e instagramáveis, para serem exibidos em festas, eventos corporativos, exibições, feiras e ambientes virtuais, aproximando o público da marca através da interação com as obras, e gerando alto engajamento em redes sociais.<br><br>Trabalhamos com projetos diversos que atendam a necessidade da sua marca ou evento. Contamos com produtos desenvolvidos e prontos para entrega além de soluções exclusivas, da concepção à realização.</p>
+          <h1>Experiências interativas para marcas, eventos e cultura</h1>
+          <p style="font-size: 1.4em">A Abstracto é um estúdio multidisciplinar que concebe e realiza instalações e ambientes interativos com novas mídias e tecnologia.<br><br>
+          Criamos ambientes divertidos, instagramáveis e imersivos para festas, eventos corporativos, feiras e exposições físicas ou virtuais, aproximando o público da marca e amplificando o alcance nas redes.<br><br>
+          Contamos com produtos já desenvolvidos e prontos para entrega além de soluções exclusivas, da concepção à realização.
+          </p>
         </div>
       </div>
     </div>
   </div>
   <div class="canvas-blank"></div>
-  <div class="mycontainer-center">
+  <div class="mycontainer-center" style="display: none;">
     <div class="about-team-wrapper">
       <div class="team3-profile-card team3-profile-card-dark">
         <div class="team-avatar team-avatar-image1"></div>
