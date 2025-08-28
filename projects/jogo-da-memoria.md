@@ -14,7 +14,9 @@ tags:
 
 long-description: "Clássico jogo da memória, em grande formato, exibido em painel de LED. Um sensor de proximidade (LiDAR) rastreia a posição das mãos; o toque vira comando para ativar, selecionar e virar cartas. O sistema responde com feedback visual em tempo real e dispara uma animação geral quando o jogo é concluído.
 <br><br>
-Para o Encontro dos Correspondentes Bancários BDMG 2025, personalizamos o conteúdo com valores e metas do evento — Venda, Crescimento, Propósito, Transformação, Sucesso e Protagonismo — reforçando a mensagem institucional enquanto o público joga em frente ao painel de 3x2m."
+Para o Encontro dos Correspondentes Bancários BDMG 2025, personalizamos o conteúdo com valores e metas do evento — Venda, Crescimento, Propósito, Transformação, Sucesso e Protagonismo — reforçando a mensagem institucional enquanto o público joga em frente ao painel de led P2 de 3x2m.
+<br><br>
+Para a Semana de Inovação de Ilhéus 2025, personalizamos o conteúdo com símbolos históricos da cidade e da cultura local, como a Catedral de São Sebastião, o Teatro Municipal, o Cacau e, é claro, o Jorge Amado."
 
 include-processo: true
 
@@ -28,11 +30,16 @@ video: videos/jogo-da-memoria
 
 # Gallery
 
-media-title: Encontro dos Correspondentes Bancários BDMG 2025
-media-description: 'Versão com palavras-chave do BDMG em painel de LED 3×2m e fechamento em nicho de madeira.'
-gallery-count: 1
+media-title: Eventos corporativos, de inovação e culturais
+media-description: 'Veja registros do jogo da memória em diferentes contextos'
+gallery-count: 2
 gallery:
   - name: BDMG 2025
     tag: bdmg
     folder: /assets/projects/jogo-da-memoria/imgs/gallery/
+  - name: Semana de Inovação de Ilhéus 2025
+    tag: ilheus
+    folder: /assets/projects/jogo-da-memoria/imgs/gallery-ilheus/
+
+
 ---
