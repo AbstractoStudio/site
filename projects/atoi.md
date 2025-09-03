@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: Abstracto Studio - Ato I
 project-title: Ato I
 description: "Ato I é o nome da instalação interativa que deu boas vindas ao público da exposição 'Palácio das Artes: 50 anos em 5 atos', em que os visitantes tiveram seu movimento rastreado no espaço para interagir com luzes moving head."

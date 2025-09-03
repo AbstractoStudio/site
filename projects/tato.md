@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: Abstracto Studio - Tato
 project-title: Tato
 description: Superfície elástica interativa. Para experiências divertidas e engajantes. O conteúdo visual é personalizável.

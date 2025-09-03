@@ -2,6 +2,7 @@
 layout: project
 
 home: false
+menu: false
 title: 'Abstracto Studio - Balsa'
 project-title: 'Balsa'
 description: Criado em colaboração com a artista Carolina Botura, Balsa foi uma obra virtual parte da exposição 'Na Boca da Mata Ah!', que teve obras físicas também expostas na Piccola Galleria da Casa Fiat em Belo Horizonte.

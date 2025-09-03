@@ -2,6 +2,7 @@
 layout: project
 
 home: false
+menu: false
 title: 'Abstracto Studio - (Des)memória'
 project-title: '(Des)memória'
 description: "(Des)memória é um 'game art', que transformou uma peça de teatro em uma experiência interativa web."

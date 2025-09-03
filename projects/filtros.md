@@ -2,6 +2,7 @@
 layout: project
 
 home: false
+menu: false
 title: 'Abstracto Studio - Filtros em Realidade Aumentada'
 project-title: 'Filtros em Realidade Aumentada'
 description: "Filtros interativos em realidade aumentada para Instagram e Facebook. Dê vida para um conteúdo estático e o resultado pode ser facilmente compartilhado como story, reels, ou no próprio mural."

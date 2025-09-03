@@ -3,9 +3,9 @@ layout: default
 ---
 
 <header id="hero-overlay" class="home-hero">
-    <div data-poster-url="{{ "assets/videos/landing/landing.jpg" || relative_url }}" data-video-urls="{{ "assets/videos/landing/landing.mp4" || relative_url }},{{ "assets/videos/landing/landing.webm" || relative_url }}" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-3 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;{{ "assets/videos/landing/landing.jpg" || relative_url }}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-        <source src="{{ "assets/videos/landing/landing.mp4" || relative_url }}" data-wf-ignore="true">
-        <source src="{{ "assets/videos/landing/landing.webm" || relative_url }}" data-wf-ignore="true">
+    <div data-poster-url="{{ "assets/videos/landing/landing.jpg" | relative_url }}" data-video-urls="{{ "assets/videos/landing/landing.mp4" | relative_url }},{{ "assets/videos/landing/landing.webm" | relative_url }}" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-3 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;{{ "assets/videos/landing/landing.jpg" | relative_url }}&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="{{ "assets/videos/landing/landing.mp4" | relative_url }}" data-wf-ignore="true">
+        <source src="{{ "assets/videos/landing/landing.webm" | relative_url }}" data-wf-ignore="true">
       </video></div>
   </header>
   <div class="home-menu-stickbg"></div>
@@ -16,17 +16,17 @@ layout: default
       </div>
       <div class="cards-grid-container">
         <div id="w-node-112a4c301885-531731a4">
-          <div class="cards-image-mask"><img src="{{ 'assets/imgs/landing/img-exp.png' || relative_url }}" alt="" class="cards-image"></div>
+          <div class="cards-image-mask"><img src="{{ 'assets/imgs/landing/img-exp.png' | relative_url }}" alt="" class="cards-image"></div>
           <h3>Experiências Interativas</h3>
           <p>Criamos instalações interativas, web ou presenciais, utilizando novas tecnologias capazes de capturar e reagir à ação do público.</p>
         </div>
         <div id="w-node-112a4c30188c-531731a4">
-          <div class="cards-image-mask"><img src="{{ 'assets/imgs/landing/img-ar.png' || relative_url }}" alt="" class="cards-image"></div>
+          <div class="cards-image-mask"><img src="{{ 'assets/imgs/landing/img-ar.png' | relative_url }}" alt="" class="cards-image"></div>
           <h3 id="w-node-112a4c30188f-531731a4">Realidades Extendidas</h3>
           <p id="w-node-112a4c301891-531731a4">Produzimos projetos em VR (realidade virtual), AR (realidade aumentada) e ambientes imersivos onde real e virtual se misturam.</p>
         </div>
         <div id="w-node-112a4c301893-531731a4">
-          <div class="cards-image-mask"><img src="{{ 'assets/imgs/landing/img-perso.png' || relative_url }}" alt="" class="cards-image"></div>
+          <div class="cards-image-mask"><img src="{{ 'assets/imgs/landing/img-perso.png' | relative_url }}" alt="" class="cards-image"></div>
           <h3 id="w-node-112a4c301896-531731a4">Softwares Personalizados</h3>
           <p id="w-node-112a4c301898-531731a4">Desenvolvemos soluções, softwares e sistemas personalizados que integram novas mídias para diversas finalidades e aplicações.</p>
         </div>
@@ -42,7 +42,7 @@ layout: default
     {% for project in projects %}
 
       <div class="mycontainer product">
-        <div class="feature-image-mask"><img src="{{ project.og-image || relative_url }}" width="1075" alt="" class="feature-image"></div>
+        <div class="feature-image-mask"><img src="{{ project.og-image | relative_url }}" width="1075" alt="" class="feature-image"></div>
         <div class="home-product-text-wrapper">
           <div class="pad24"><h1 class="title">{{ project.project-title }}</h1></div>
           <div class="tags pad16">
@@ -73,21 +73,21 @@ layout: default
       </div>
       <div class="home-process-wrapper">
         <div class="home-process-line">
-          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo1.svg' || relative_url }}" width="50">
+          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo1.svg' | relative_url }}" width="50">
             <h1>Design</h1>
             <div>Pesquisa, definição de conceito e tecnologias necessárias para a realização do projeto. Planejamento executivo.</div>
           </div>
-          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo2.png' || relative_url }}" width="50">
+          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo2.png' | relative_url }}" width="50">
             <h1>Prototipagem</h1>
             <div>Validação de idéias. Prototipação dos principais conceitos e funcionalidades para validação e testes antes do desenvolvimento completo.</div>
           </div>
         </div>
         <div class="home-process-line">
-          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo3.png' || relative_url }}" width="50">
+          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo3.png' | relative_url }}" width="50">
             <h1>Desenvolvimento</h1>
             <div>Produção/construção na forma que será apresentado ao público. Implementação de elementos audiovisuais e interação.</div>
           </div>
-          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo4.png' || relative_url }}" width="50">
+          <div class="home-process-wrapper-item"><img src="{{ 'assets/imgs/landing/passo4.png' | relative_url }}" width="50">
             <h1>Execução</h1>
             <div>Realização do projeto de acordo com as necessidades de local. Pode incluir a montagem, operação ou o que for necessário para a apresentação ao público.</div>
           </div>

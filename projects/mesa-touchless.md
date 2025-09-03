@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: Abstracto Studio - Mesa Touchless
 project-title: Mesa Touchless
 description: Mesas iluminadas com projeção mapeada e interação sem toque. Projeto realizado para a abertura do Sebraelab em Belo Horizonte.

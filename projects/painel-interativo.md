@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: 'Abstracto Studio - Painel Interativo'
 project-title: 'Painel Interativo'
 description: "Experiência interativa que convidou o público a usar o corpo para interagir com o conteúdo de um painel de led, criando um ambiente atrativo para os visitantes da Semana Internacional do Café no Expominas em Belo Horizonte."

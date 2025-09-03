@@ -2,6 +2,7 @@
 layout: project
 
 home: false
+menu: false
 title: 'Abstracto Studio - #nossacidade'
 project-title: '#nossacidade'
 description: Plataforma de Realidade Aumentada para a reivindicação de melhorias urbanas. Projeto vencedor do Hackathon Rio2C de 2018.

@@ -15,8 +15,8 @@
           </div>
           <nav class="dropdown-list w-dropdown-list">
 
-            {% assign projects = site.pages | where_exp: "item" , "item.path contains 'projects'" |  uniq %}
-
+            {% assign projects = site.pages | where_exp: "item" , "item.path contains 'projects'and item.menu == true" |  uniq %}
+            
             {% for project in projects %}
             <a href="{{ site.url }}{{ project.permalink }}" class="nav-link w-dropdown-link">{{ project.project-title }}</a>
             {% endfor %}

@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: 'Abstracto Studio - Anima'
 project-title: 'Anima'
 description: "Por meio de um sensor de captura de movimento, o público pôde controlar com seus corpos o brilho, movimento e cores de 8 'moving heads', dando vida às luzes que iluminaram a árvore central da cúpula de vidro do Museu Mineiro durante o Festival Criatura."

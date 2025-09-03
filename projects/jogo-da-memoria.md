@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: 'Abstracto Studio - Jogo da Memória'
 project-title: 'Jogo da Memória'
 description: "Instalação interativa lúdica em painel de LED com sistema de deteção de toque. O sistema responde com feedback visual em tempo real e dispara uma animação geral quando o jogo é concluído."

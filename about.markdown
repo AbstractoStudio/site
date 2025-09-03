@@ -6,7 +6,7 @@ permalink: /about/
 
   <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js" type="text/javascript"></script>
   <script src="https://unpkg.com/p5.tween@1.0.0/dist/p5.tween.min.js" type="text/javascript"></script>
-  <script src="{{ 'assets/js/sketch-raycasting-logo.js' || relative_url }}" type="text/javascript"></script>
+  <script src="{{ 'assets/js/sketch-raycasting-logo.js' | relative_url }}" type="text/javascript"></script>
 
   <div class="canvas" id="canvas">
     <div class="sobre-wrapper">

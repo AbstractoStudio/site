@@ -2,6 +2,7 @@
 layout: project
 
 home: true
+menu: true
 title: 'Abstracto Studio - Piso Interativo'
 project-title: 'Piso Interativo'
 description: "Instalação imersiva que transforma o piso em uma superfície interativa. Ideal para eventos de médio e grande porte, incluindo feiras, festivais, casamentos, festas de 15 anos, entre outros."
