@@ -39,5 +39,3 @@ gem 'csv'
 gem "jekyll-sass-converter", "~> 2.2"
 gem "sassc", "~> 2.4"
 gem 'bigdecimal'
-
-gem 'base64', '>= 0.1.0' 
